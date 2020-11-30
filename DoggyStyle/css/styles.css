@@ -1,0 +1,183 @@
+body{
+   
+    font-family: 'Montserrat', sans-serif;
+  
+    
+}
+
+#title{
+    background-color:#9cdee0;
+    color: black;
+ 
+}
+.container-fluid{
+    padding: 3% 15%;
+  
+}
+h1{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 3rem;
+    line-height: 1.5;
+    padding-bottom: 60px;
+    padding-top: 70px;
+     
+}
+
+h3{
+    font-family: 'Architects Daughter', cursive;
+    
+}
+p{
+    color: #8f8f8f;
+    
+}
+
+    .title-image{
+     padding-left: 200px;
+     
+     transform: rotate(20deg);
+     height: 80%;
+     position: absolute;
+  
+    }
+
+    #features{
+        padding: 7% 15% ;
+        text-align: center;
+        background-color: white;
+        position: relative;
+        z-index: 1;
+
+        
+        
+      
+    }
+
+    .navbar-brand{
+     font-family: 'Architects Daughter', cursive;
+     font-size: 2.5rem;
+     color: black;
+     font-weight: bold;
+     padding-left: 10px;
+
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        color: black;
+        font-size: 1 rem;
+    }
+    .navbar .navbar-expand-lg .navbar-dark {
+        color: black;
+        
+    }
+    .nav-item{
+     padding: 60px;
+        
+    }
+    .download-button{
+       margin-right: 12px ;
+    }
+    .col-lr-6{
+     padding-left: 45px;
+    }
+    
+    .feature-box{
+        padding: 5%;
+     
+    }
+    
+    .iconheart{
+        color:rgb(236, 106, 106);
+        margin-bottom: 1rem;
+    }
+    .iconbull{
+        color:red;
+        margin-bottom: 1rem;
+     }
+    .iconcheck{
+        color: green;
+        margin-bottom: 1rem;
+    }
+    .iconheart:hover{
+        
+        transform: matrix(1, -0.3, 0, 1, 0, 0);
+    }
+    .iconbull:hover{
+        
+        transform: matrix(1, -0.3, 0, 1, 0, 0);
+    }
+    .iconcheck:hover{
+       
+        transform: matrix(1, -0.3, 0, 1, 0, 0);
+    
+    }
+    /* testimonail section*/
+    #testimonials{
+        text-align: center;
+        background-color: #ace2e4;
+     
+    }
+    h2{
+        font-family: 'Architects Daughter', cursive;
+        margin-bottom: 50px;
+        font-size: 3rem;
+        line-height: 1.5;
+    }
+    p{
+        
+        font-family: 'Architects Daughter', cursive;
+        font-size: 1.5rem;
+    }
+    .testimonial-image{
+
+        border-radius: 5rem;
+        width: 10%;
+    }
+    .carousel-item{
+        padding: 7% 15%;
+    }
+    
+    
+    
+    #press{
+        background-color: #ace2e4;
+        text-align: center;
+        padding-bottom: 15px;
+        padding-top: 15px;
+        
+    }
+    .press-logo{
+      height: 45px;
+     margin: 20px 20px 50px;
+    }
+    #pricing{
+        padding: 100px;
+        text-align: center;
+       
+    }
+    .pricing-title{
+        padding-bottom: 15px;
+        text-align:center;
+        
+    }
+    .btn {
+     background-color:#ace2e4;
+     color:black;
+
+    }
+    #cta{
+        text-align: center;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    #footer{
+        text-align: center;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+    
+        @media (max-width:900px){
+            .title-image{
+                transform:rotate(0deg);
+                left:350px;
+            }
+        }
